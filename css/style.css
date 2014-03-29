@@ -1,5 +1,5 @@
 body {
-	background: gray;
+	background:#F0F0F0;
 }
 h1 {
 	color: pink;
@@ -7,6 +7,11 @@ h1 {
 .saying {
 	font-weight: bold;
 	font-size: 36px;
+}
+
+.links {
+	font-weight: bold;
+	font-size: 42px;
 }
 #hello {
 	color: yellow;
