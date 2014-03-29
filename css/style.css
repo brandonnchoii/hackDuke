@@ -2,7 +2,10 @@ body {
 	background:#F0F0F0;
 }
 h1 {
-	color: pink;
+	color: #0040FF;
+}
+.boxed {
+  border: 1px solid green ;
 }
 .saying {
 	font-weight: bold;
@@ -17,9 +20,25 @@ h1 {
 	border-color: #0033FF;
 	background-color: #0033ff;
 }
+#sidebar {
+    width : 300px;
+    float : left;
+}
+#main-contents {
+    width : 660px;
+    float : left;
+}
 #hello {
 	color: yellow;
 }
 #goodbye {
 	color: blue;
+}
+aside {
+    -moz-border-radius: 15px; /* those two declaration are to get round boders for the asides, as in fig 3-10-5, across browsers */
+    border-radius: 15px;
+}
+
+footer {
+    clear : both;
 }
