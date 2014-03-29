@@ -12,6 +12,10 @@ h1 {
 .links {
 	font-weight: bold;
 	font-size: 42px;
+	color: #FFFFFF;
+	border-style: solid;
+	border-color: #0033FF;
+	background-color: #0033ff;
 }
 #hello {
 	color: yellow;
