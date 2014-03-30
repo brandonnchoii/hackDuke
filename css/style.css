@@ -3,7 +3,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	font: 13px Helvetica;
-	color: white;
+	color: black;
 	font: 13px Helvetica;
 	background: url(../images/chalkboard.jpg) no-repeat center center fixed; 
   	-webkit-background-size: cover;
@@ -12,9 +12,7 @@ body {
   	background-size: cover;
 }
 
-body#home {
-	background: #F8F8F8;
-}
+
 
 h1 {
 	color: #0040FF;
