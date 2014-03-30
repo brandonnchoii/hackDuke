@@ -95,8 +95,8 @@ h1 {
 	border-color: #000000;
 	border-width: 3px;
 	background-color: #000000;
-	max-width: 420px;
-	max-height: 350px;
+	max-width: 350px;
+	max-height: 375px;
 	overflow: auto;
 }
 #presenceDiv{
