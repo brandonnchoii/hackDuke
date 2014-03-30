@@ -12,6 +12,10 @@ body {
   	background-size: cover;
 }
 
+body#home {
+	background: #F8F8F8;
+}
+
 h1 {
 	color: #0040FF;
 }
@@ -63,7 +67,7 @@ h1 {
 	max-height: 100%;
 	max-width: 100%;
 }
-#banner {
+#cobranding {
 	float: left;
 	display: block;
 	max-height: 20%;
@@ -74,6 +78,9 @@ h1 {
 	display: block;
 	max-height: 33%;
 	max-width: 45%;
+}
+#logo {
+	
 }
 aside {
     -moz-border-radius: 15px; /* those two declaration are to get round boders for the asides, as in fig 3-10-5, across browsers */
