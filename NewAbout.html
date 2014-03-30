@@ -5,19 +5,10 @@
 
 	<link rel="stylesheet" href="css/indexstyle.css">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
 
 	<script src="javascript/jquery-1.11.0.min.js"></script>
 	<script src="javascript/bootstrap.min.js"></script>
-
-</head>
-<body>
-	<!doctype html>
-<html>
-<head>
-	<title>ChalkTalk</title>
-
-	<link rel="stylesheet" href="css/style.css">
-	<link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:700' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<nav class="navbar navbar-default" role="navigation">
@@ -77,15 +68,25 @@
 </div>
 
 <ul class="nav nav-tabs">
-  <li class="index.html"><a href="#">Mission Statement</a></li>
-  <li><a href="#">Current Goals</a></li>
-  <li><a href="#">Future Plans</a></li>
+  <li><a href="#mission" data-toggle="tab">Mission Statement</a></li>
+  <li><a href="#goals" data-toggle="tab">Current Goals</a></li>
+  <li><a href="#plans" data-toggle="tab">Future Plans</a></li>
 </ul>
-<div id='content' class="tab-content">
-      <div class="tab-pane active" id="home">
-        <ul>
-        	<p> alksdjfal;skdjfal;skdnmaosjdhf;alksdjfpoaiwejfdklz;xdjfo;</p>
-    	</ul>
+<div class="tab-content">
+  <div class="tab-pane active" id="mission">MISSION</div>
+  <div class="tab-pane" id="goals">GOALS</div>
+  <div class="tab-pane" id="plans">PLANS</div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+	$('.nav-tabs a').click(function (e) {
+	  e.preventDefault()
+	  $(this).tab('show')
+	});
+});
+</script>
+
 </body>
 </html>
 </body>
