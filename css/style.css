@@ -82,10 +82,9 @@ h1 {
 	border-color: #F8F8F8
 	background-color: #DF01D7;
 }
-#logo {
-	
+
 #chattychatty{
-	position:fixed;
+	position: center;
 	float: right;
 }
 #chatbox{
@@ -95,8 +94,8 @@ h1 {
 	border-color: #000000;
 	border-width: 3px;
 	background-color: #000000;
-	max-width: 350px;
-	max-height: 375px;
+	max-width: 420px;
+	max-height: 350px;
 	overflow: auto;
 }
 #presenceDiv{
@@ -110,12 +109,12 @@ h1 {
 }
 #getyournews{
 	border-style:solid;
-	border-color: #000000;
+	border-color: #F8F8F8;
 	border-width:5px;
 	position:center;
 	background-color: #F8F8F8;
-	max-width: 700px;
-	max-height: 800px;
+	max-width: 500px;
+	max-height: 700px;
 	overflow:auto;
 }
 #titlefornews{
