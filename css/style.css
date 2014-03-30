@@ -42,23 +42,24 @@ h1 {
     width : 660px;
     float : left;
 }
-#hello {
-	color: yellow;
+#header {
+	clear: both;
 }
-#goodbye {
-	color: blue;
+#header img {
+	max-height: 100%;
+	max-width: 100%;
 }
 #banner {
-	position: relative;
-	top: -10px;
-	left: -10px;
-	margin: 25px;
+	float: left;
+	display: block;
+	max-height: 20%;
+	max-width: 40%;
 }
 #picture {
-	position: relative;
-	top: -10px;
-	right: -10px;
-	margin: 100px;
+	float: left;
+	display: block;
+	max-height: 33%;
+	max-width: 45%;
 }
 aside {
     -moz-border-radius: 15px; /* those two declaration are to get round boders for the asides, as in fig 3-10-5, across browsers */
@@ -67,4 +68,23 @@ aside {
 
 footer {
     clear : both;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
 }
