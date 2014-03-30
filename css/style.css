@@ -1,12 +1,11 @@
 
 body {
-	background:#F0F0F0;
 	margin: 0px;
 	padding: 0px;
-	background: #3D5D68 url(images/img01.jpg) repeat-x;
 	font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #333333;
+	background-color: #F8F8F8;
 }
+
 h1 {
 	color: #0040FF;
 }
@@ -25,6 +24,11 @@ h1 {
 	border-style: solid;
 	border-color: #0033FF;
 	background-color: #0033ff;
+
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
 }
 #sidebar {
     width : 300px;
@@ -39,6 +43,18 @@ h1 {
 }
 #goodbye {
 	color: blue;
+}
+#banner {
+	position: relative;
+	top: -10px;
+	left: -10px;
+	margin: 25px;
+}
+#picture {
+	position: relative;
+	top: -10px;
+	right: -10px;
+	margin: 100px;
 }
 aside {
     -moz-border-radius: 15px; /* those two declaration are to get round boders for the asides, as in fig 3-10-5, across browsers */
