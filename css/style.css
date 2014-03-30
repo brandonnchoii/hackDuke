@@ -1,6 +1,11 @@
 
 body {
 	background:#F0F0F0;
+	margin: 0px;
+	padding: 0px;
+	background: #3D5D68 url(images/img01.jpg) repeat-x;
+	font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #333333;
 }
 h1 {
 	color: #0040FF;
