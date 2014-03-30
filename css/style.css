@@ -78,6 +78,10 @@ h1 {
 	max-height: 33%;
 	max-width: 45%;
 }
+#button1 {
+	border-color: #F8F8F8
+	background-color: #DF01D7;
+}
 #logo {
 	
 }
