@@ -1,4 +1,0 @@
-hackDuke
-========
-
-hackduke repository
