@@ -3,8 +3,10 @@ body {
 	margin: 0px;
 	padding: 0px;
 	font: 13px Helvetica;
+<<<<<<< HEAD
 	color: white;
-	font: 18px Helvetica;
+	font: 13px Helvetica;
+>>>>>>> FETCH_HEAD
 	background: url(../images/chalkboard.jpg) no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -12,13 +14,12 @@ body {
   	background-size: cover;
 }
 
-body#home {
-	background: #F8F8F8;
-}
+
 
 h1 {
 	color: #0040FF;
 }
+
 .boxed {
   border: 1px solid green ;
 }
