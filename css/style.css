@@ -3,6 +3,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	font: 13px Helvetica;
+	color: white;
 	background: url(../images/chalkboard.jpg) no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -34,11 +35,25 @@ h1 {
 	margin-left: 15px;
 	margin-bottom: 20px;
 }
+
+#biopicture-container {
+	max-width:300px; 
+
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+}
+
+#biopicture-container img {
+	max-width: 100%;
+}
+
 #sidebar {
     width : 300px;
     float : left;
 }
-#main-contents {
+.main-contents {
     width : 660px;
     float : left;
 }
@@ -68,6 +83,10 @@ aside {
 
 footer {
     clear : both;
+}
+
+.center {
+	text-align: center;
 }
 
 
