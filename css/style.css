@@ -3,11 +3,17 @@ body {
 	margin: 0px;
 	padding: 0px;
 	font: 13px Helvetica;
+	color: white;
+	font: 13px Helvetica;
 	background: url(../images/chalkboard.jpg) no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
+}
+
+body#home {
+	background: #F8F8F8;
 }
 
 h1 {
@@ -24,21 +30,33 @@ h1 {
 .links {
 	font-weight: bold;
 	font-size: 36px;
+
 	color: #FFFFFF;
-	border-style: solid;
-	border-color: #0033FF;
-	background-color: #0033ff;
 
 	margin-top: 15px;
 	margin-right: 15px;
 	margin-left: 15px;
 	margin-bottom: 20px;
 }
+
+#biopicture-container {
+	max-width:300px; 
+
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+}
+
+#biopicture-container img {
+	max-width: 100%;
+}
+
 #sidebar {
     width : 300px;
     float : left;
 }
-#main-contents {
+.main-contents {
     width : 660px;
     float : left;
 }
@@ -49,7 +67,7 @@ h1 {
 	max-height: 100%;
 	max-width: 100%;
 }
-#banner {
+#cobranding {
 	float: left;
 	display: block;
 	max-height: 20%;
@@ -61,6 +79,9 @@ h1 {
 	max-height: 33%;
 	max-width: 45%;
 }
+#logo {
+	
+}
 aside {
     -moz-border-radius: 15px; /* those two declaration are to get round boders for the asides, as in fig 3-10-5, across browsers */
     border-radius: 15px;
@@ -70,6 +91,25 @@ footer {
     clear : both;
 }
 
+<<<<<<< HEAD
+.center {
+	text-align: center;
+}
+
+=======
+div
+{
+font-family: myFirstFont;
+}
+
+@font-face
+{
+font-family: myFirstFont;
+src: url(kghappysolid);
+}
+
+
+>>>>>>> FETCH_HEAD
 
 .clearfix:before,
 .clearfix:after {
